@@ -1,0 +1,1 @@
+{"uuid":"ec525cfa-286b-446c-af00-246e7497b750","name":"com.sam.Sample.bfr","children":["4ca4c891-7e44-40bb-aad0-aff879182959"],"description":"","befores":[{"name":"bfr","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1659403688503,"stop":1659403695007}],"afters":[],"start":1659403688503,"stop":1659403695007}

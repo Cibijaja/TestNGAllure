@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="methods">
+  <listeners>
+    <listener class-name="com.sam.Listener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Soup(failed)" parallel="methods">
+    <classes>
+      <class name="com.sam.Sample">
+        <methods>
+          <include name="amazon"/>
+          <include name="be"/>
+          <include name="google"/>
+          <include name="afr"/>
+          <include name="flip"/>
+          <include name="bfr"/>
+        </methods>
+      </class> <!-- com.sam.Sample -->
+    </classes>
+  </test> <!-- Soup(failed) -->
+</suite> <!-- Failed suite [Suite] -->
