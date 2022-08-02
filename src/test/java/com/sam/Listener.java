@@ -53,7 +53,7 @@ public class Listener  implements ITestListener{
 	}
 
 	public void onStart(ITestContext context) {
-		System.out.println( " started");
+		System.out.println(context.getName() + " started");
 		
 	}
 
